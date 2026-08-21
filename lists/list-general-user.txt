@@ -1,0 +1,11 @@
+domain.example.abc
+# Meta
+oculus.com
+oculuscdn.com
+meta.com
+facebook.com
+fbcdn.net
+fbsbx.com
+
+# Booth
+pximg.net

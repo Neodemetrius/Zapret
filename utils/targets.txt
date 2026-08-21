@@ -1,0 +1,35 @@
+# targets.txt - список конечных точек для тестов zapret.ps1
+#
+# Формат:
+#   ИмяКлюча = "https://хост..."   -> Проверка HTTP/TLS + пинг
+#   ИмяКлюча = "PING:1.2.3.4"       -> Только пинг
+#
+# Ключи должны состоять из одного слова (буквы/цифры/подчёркивание), потому что
+# скрипт обрабатывает их как простые идентификаторы. Вы можете добавлять или удалять строки.
+
+### Discord
+DiscordMain           = "https://discord.com"
+DiscordGateway        = "https://gateway.discord.gg"
+DiscordCDN            = "https://cdn.discordapp.com"
+DiscordUpdates        = "https://updates.discord.com"
+
+### YouTube
+YouTubeWeb            = "https://www.youtube.com"
+YouTubeShort          = "https://youtu.be"
+YouTubeImage          = "https://i.ytimg.com"
+YouTubeVideoRedirect  = "https://redirector.googlevideo.com"
+
+### Google
+GoogleMain            = "https://www.google.com"
+GoogleGstatic         = "https://www.gstatic.com"
+
+### Cloudflare
+CloudflareWeb         = "https://www.cloudflare.com"
+CloudflareCDN         = "https://cdnjs.cloudflare.com"
+
+### Публичные DNS (только PING)
+CloudflareDNS1111     = "PING:1.1.1.1"
+CloudflareDNS1001     = "PING:1.0.0.1"
+GoogleDNS8888         = "PING:8.8.8.8"
+GoogleDNS8844         = "PING:8.8.4.4"
+Quad9DNS9999          = "PING:9.9.9.9"
